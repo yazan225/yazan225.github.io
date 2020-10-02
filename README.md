@@ -1,6 +1,5 @@
 
 <head>
-<title>yazan HTML5</title>
 </head>
 <body>
 
