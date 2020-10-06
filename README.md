@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang=en-US>
+
 <head>
-<title>yazan HTML5</title>
+
 </head>
 <body>
 
@@ -63,4 +63,4 @@ INFORNATION SECURITY </p>
 <p> * Network security</p>
 <p> * Penetration testing </p>
 </body>
-</html>
+
