@@ -1,6 +1,7 @@
 
 
 <head>
+   <link rel="yazancss" href="/yazan.css">
 
 </head>
 <body>
