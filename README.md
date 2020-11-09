@@ -1,9 +1,4 @@
 
-<head>
-
-   <link rel="stylesheet" type="text/css" href="external.css">
-
-</head>
 <body>
 
 <h1 title="don't prolong on me " >Yazan Salileh</h1>
