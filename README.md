@@ -1,9 +1,40 @@
 <head>
-<link rel="stylesheet" type="text/css" href="external.css">
+ <link rel="stylesheet" type="text/css" href="external.css">
+  <style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+#container {
+text-align:right
+}
+</style>
 
 </head>
 <body>
 
+<div id="container">
+<button class="button1 button">Print My CV</button>
+</div>
+  
+  
 <h1 title="don't prolong on me " >Yazan Salileh</h1>
 <hr>
 <h3 title="outline" title="" >Summary Of Me : </h3>
