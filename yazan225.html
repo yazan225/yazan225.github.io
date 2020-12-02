@@ -3,10 +3,41 @@
 <head>
 <title>yazan HTML5</title>
    <link rel="stylesheet" type="text/css" href="external.css">
+  <style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
 
-</head>
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+#container {
+text-align:right
+}
+</style>
+   </head>
 <body>
-
+   
+<div id="container">
+<button class="button1 button">Print My CV</button>
+</div>
+  
+   
+   
 <h1 title="don't prolong on me " >Yazan Salileh</h1>
 <hr>
 <h3 title="outline" title="" >Summary Of Me : </h3>
@@ -64,5 +95,17 @@ INFORNATION SECURITY </p>
 <p> * Scripting</p>
 <p> * Network security</p>
 <p> * Penetration testing </p>
+   <p>Click the button to make a BUTTON element.</p>
+
+<button onclick="Fun()">Print My CV</button>
+
+   
+<script>
+function Fun() {
+  var btn = document.createElement("BUTTON");
+  document.body.appendChild(btn);
+}
+</script>
+
 </body>
 </html>
