@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html lang=en-US>
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 <title>yazan HTML5</title>
    <link rel="stylesheet" type="text/css" href="external.css">
-  <style>
+   
+   <style>
+* {
+            font-family: 'Varela Round', sans-serif;
+        }
+.container {
+            width: 400px;
+            margin: 50px auto;
+        }
+h1 {
+            text-align: center;
+        }
+li {
+            font-size: 20px;
+            background-color: whitesmoke;
+            margin-top: 30px;
+            padding: 20px;
+        }
+        
 .button {
   border: none;
   color: white;
@@ -22,12 +41,14 @@
 }
 
 .button1:hover {
-  background-color: #4CAF50;
+  background-color: red;
   color: white;
 }
 #container {
 text-align:right
 }
+
+
 </style>
    </head>
 <body>
@@ -59,17 +80,20 @@ text-align:right
 <img src="119517263_2822506641319441_5874867198165043417_n.jpg" width="500" height="600">
 <hr>
 <h3 title="Certificate Obtained " >education background : </h3>
-<p> * A bachelor's degree in NETWORK and 
-INFORNATION SECURITY </p>
-<p> * high school education degree </p>
-<p> * Google IT Support </p>
-<p> * Introduction to Cybersecurity Tools and Cyber Attacks</p>
-<p> * Technical Support Fundamentals</p>
-<p> * The Bits and Bytes of Computer Networking </p>
-<p> * Operating Systems and You: Becoming a Power User </p>
-<p> * System Administration and IT Infrastructure Services </p>
-<p> * IT Security: Defense against the digital dark arts </p>
-<p>* ICDL </p>
+<div class="container">
+
+<p  onmouseover="changeColor(this)" onmouseout="changeColor(this)" > * bachelor's degree in NETWORK and INFORNATION SECURITY </p>
+<p  onmouseover="changeColor(this)" onmouseout="changeColor(this)" > * high school education degree </p>
+<p  onmouseover="changeColor(this)" onmouseout="changeColor(this)" > * Google IT Support </p>
+<p  onmouseover="changeColor(this)" onmouseout="changeColor(this)" > * Introduction to Cybersecurity Tools and Cyber Attacks</p>
+<p  onmouseover="changeColor(this)" onmouseout="changeColor(this)" > * Technical Support Fundamentals</p>
+<p  onmouseover="changeColor(this)" onmouseout="changeColor(this)"> * The Bits and Bytes of Computer Networking </p>
+<p  onmouseover="changeColor(this)" onmouseout="changeColor(this)" > * Operating Systems and You: Becoming a Power User </p>
+<p  onmouseover="changeColor(this)" onmouseout="changeColor(this)" > * System Administration and IT Infrastructure Services </p>
+<p  onmouseover="changeColor(this)" onmouseout="changeColor(this)" > * IT Security: Defense against the digital dark arts </p>
+<p  onmouseover="changeColor(this)" onmouseout="changeColor(this)" >* ICDL </p>
+
+</div>
 
 <hr>
 <h3 title="or volunteer in " > work experiences :</h3>
@@ -96,11 +120,19 @@ INFORNATION SECURITY </p>
 <p> * Network security</p>
 <p> * Penetration testing </p>
    <p>Click the button to make a BUTTON element.</p>
-
+   
 <script type ="text/javascript">
 function dosomething (){
 alert ("Welcome, please let me know if you have any questions")
 }
+ function changeColor(obj) {
+            if (obj.style.color == 'red') {
+                obj.style.color = 'black';
+            } else {
+                obj.style.color = 'red';
+            }
+        }
+   
 </script>
    
 </body>
