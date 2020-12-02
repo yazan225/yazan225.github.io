@@ -52,7 +52,7 @@ text-align:right
 <body>
 
 <div id="container">
-<button class="button1 button">Print My CV</button>
+<button onclick="myfun()" class="button1 button">Print My CV</button>
 </div>
   
   
@@ -127,6 +127,9 @@ alert ("Welcome, please let me know if you have any questions")
                 obj.style.color = 'red';
             }
         }
+        function myfun(){
+         window.print();
+         }
    
 </script>
 </body>
