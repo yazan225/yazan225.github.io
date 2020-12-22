@@ -1,4 +1,4 @@
-#yasalileh.github.io
+
 
 <head>
   <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
@@ -44,6 +44,8 @@ text-align:right
 <button onclick="myfun()" class="button1 button">Print My CV</button>
 </div>
   
+  	<p><a href="https://yazan225.github.io/">Visit my old page !</a></p>
+
   
 <h1 onclick="dosomething()">Yazan Salileh</h1>
 <hr>
